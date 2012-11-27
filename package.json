@@ -1,0 +1,14 @@
+{
+  "name": "watcher",
+  "description": "Utility to execute command on file changes",
+  "author": "Ivan Pantuyev <ivanvpan@gmail.com",
+  "version": "0.1",
+  "private": false,
+  "dependencies": {
+    "watch": "0.5.1",
+  },
+  "bin": {
+      "watcher": "./bin/watcher"
+  },
+  "engine": "node >= 0.6.6"
+}
